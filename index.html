@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <title>Meu Primeiro Site</title>
+
+   <!-- Conecta o CSS -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <h1>Meu Primeiro Site</h1>
+   <img src="logo.png" width="300">
+
+   <h2>Trocar imagem</h2>
+
+<img id="imagem" src="img1.jpg" width="300">
+
+<br><br>
+
+<button onclick="trocarImagem()">Trocar Imagem</button>
+
+<script>
+function trocarImagem() {
+   document.getElementById("imagem").src = "img2.jpg";
+}
+</script>
+
+<h2>Tabela de Produtos</h2>
+
+<table border="5">
+   <tr>
+       <th>Produto</th>
+       <th>Preço</th>
+   </tr>
+
+   <tr>
+       <td>Gragas Caipira</td>
+       <td>1350 rp</td>
+   </tr>
+
+   <tr>
+       <td>Gragas operação no Artico</td>
+       <td>1350 rp</td>
+   </tr>
+</table>
+
+<h2>Vídeo</h2>
+
+<video width="300" controls>
+   <source src="video.mp4" type="video/mp4">
+</video>
+
+<h2>Som</h2>
+
+<audio controls>
+   <source src="som.mp3" type="audio/mp3">
+</audio>
+
+
+
+
+</body>
+</html>
+
