@@ -1,10 +1,26 @@
 body {
-   background-color: #f0f0f0;
+   background-color: #ffffff;
    font-family: Arial;
    text-align: center;
 }
 
 h1 {
-   color: blue;
+   color: #f700ff;
 }
 
+img {
+   border-radius: 10px;
+}
+
+table {
+   margin: auto;
+   background-color: white;
+}
+
+button {
+   padding: 10px;
+   background-color: #f700ff;
+   color: white;
+   border: none;
+   border-radius: 5px;
+}
